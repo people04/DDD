@@ -46,22 +46,6 @@
       "minimum_wave": 3
     },
     {
-      "entity_type": "dungeons_mobs:iceologer",
-      "weight": 50,
-      "strength": 10,
-      "rank": "soldier",
-      "maximum_rank": "leader",
-      "minimum_wave": 3,
-      "boosts": {
-        "rarity_overrides": [
-          {
-            "boost": "faction_craft:mount/faction_ravager",
-            "rarity": "common"
-          }
-        ]
-      }
-    },
-    {
       "entity_type": "dungeons_mobs:geomancer",
       "weight": 50,
       "strength": 10,
@@ -88,6 +72,46 @@
     {
       "entity_type": "dungeons_mobs:royal_guard",
       "weight": 50,
+      "strength": 15,
+      "rank": "soldier",
+      "maximum_rank": "leader",
+      "minimum_wave": 4
+    },
+    {
+      "entity_type": "dungeons_mobs:vindicator_raid_captain",
+      "weight": 20,
+      "strength": 15,
+      "rank": "leader",
+      "maximum_rank": "leader",
+      "minimum_wave": 4
+    },
+    {
+      "entity_type": "dungeons_mobs:rampart_captain",
+      "weight": 20,
+      "strength": 15,
+      "rank": "leader",
+      "maximum_rank": "leader",
+      "minimum_wave": 4
+    },
+    {
+      "entity_type": "dungeons_mobs:powerful_royal_guard",
+      "weight": 15,
+      "strength": 15,
+      "rank": "soldier",
+      "maximum_rank": "leader",
+      "minimum_wave": 4
+    },
+    {
+      "entity_type": "dungeons_mobs:illager_warrior",
+      "weight": 1,
+      "strength": 15,
+      "rank": "soldier",
+      "maximum_rank": "leader",
+      "minimum_wave": 4
+    },
+    {
+      "entity_type": "dungeons_mobs:tower_guard",
+      "weight": 30,
       "strength": 15,
       "rank": "soldier",
       "maximum_rank": "leader",
