@@ -11,6 +11,7 @@
     "BrainAccessor",
     "CropsBlockMixin",
     "DrownedEntityMixin",
+    "EvokerEntityMixin",
     "GoalSelectorAccessor",
     "MansionTemplateMixin",
     "PatrolSpawnerMixin",
@@ -19,6 +20,7 @@
     "RaidMixin",
     "SpiderEntityMixin",
     "TridentEntityMixin",
+    "VindicatorEntityMixin",
     "WitherSkeletonEntityMixin",
     "ZombifiedPiglinEntityMixin"
   ],
