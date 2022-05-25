@@ -19,10 +19,10 @@ public class RaidEntries {
 
         // WARRIOR
         if(DungeonsMobsConfig.COMMON.ENABLE_MOUNTAINEERS_IN_RAIDS.get()){
-            Raid.WaveMember.create("mountaineer", ModEntityTypes.MOUNTAINEER.get(), new int[]{0, 0, 2, 0, 1, 4, 2, 5});
+            Raid.WaveMember.create("mountaineer", ModEntityTypes.MOUNTAINEER.get(), new int[]{0, 0, 3, 0, 2, 5, 3, 6});
         }
         if(DungeonsMobsConfig.COMMON.ENABLE_VINDICATOR_CHEFS_IN_RAIDS.get()){
-            Raid.WaveMember.create("vindicator_chef", ModEntityTypes.VINDICATOR_CHEF.get(), new int[]{0, 0, 2, 0, 1, 4, 2, 5});
+            Raid.WaveMember.create("vindicator_chef", ModEntityTypes.VINDICATOR_CHEF.get(), new int[]{0, 0, 4, 0, 3, 6, 4, 7});
         }
         // ARMORED WARRIOR
         if(DungeonsMobsConfig.COMMON.ENABLE_ARMORED_VINDICATORS_IN_RAIDS.get()){
@@ -34,7 +34,7 @@ public class RaidEntries {
         }
 
         if(DungeonsMobsConfig.COMMON.ENABLE_ROYAL_GUARDS_IN_RAIDS.get()){
-            Raid.WaveMember.create("royal_guard", ModEntityTypes.ROYAL_GUARD.get(), new int[]{0, 0, 1, 0, 0, 2, 1, 2});
+            Raid.WaveMember.create("royal_guard", ModEntityTypes.ROYAL_GUARD.get(), new int[]{0, 0, 2, 1, 0, 2, 2, 3});
         }
         
         // SPELLCASTER
@@ -70,6 +70,21 @@ public class RaidEntries {
         // BOSS
         if(DungeonsMobsConfig.COMMON.ENABLE_REDSTONE_GOLEMS_IN_RAIDS.get()){            
             Raid.WaveMember.create("redstone_golem", ModEntityTypes.REDSTONE_GOLEM.get(), new int[]{0, 0, 0, 0, 0, 0, 0, 1});
+        }
+        if(DungeonsMobsConfig.COMMON.ENABLE_VINDICATOR_RAID_CAPTAIN_IN_RAIDS.get()){            
+            Raid.WaveMember.create("rampart_captain", ModEntityTypes.RAMPART_CAPTAIN.get(), new int[]{0, 0, 1, 0, 0, 1, 1, 2});
+        }
+        if(DungeonsMobsConfig.COMMON.ENABLE_RAMPART_CAPTAIN_IN_RAIDS.get()){            
+            Raid.WaveMember.create("vindicator_raid_captain", ModEntityTypes.VINDICATOR_RAID_CAPTAIN.get(), new int[]{0, 0, 1, 2, 0, 1, 1, 2});
+        }
+        if(DungeonsMobsConfig.COMMON.ENABLE_TOWER_GUARD_IN_RAIDS.get()){            
+            Raid.WaveMember.create("tower_guard", ModEntityTypes.TOWER_GUARD.get(), new int[]{0, 0, 2, 1, 0, 2, 2, 3});
+        }
+        if(DungeonsMobsConfig.COMMON.ENABLE_HEARY_ARMORED_GUARD_IN_RAIDS.get()){            
+            Raid.WaveMember.create("powerful_royal_guard", ModEntityTypes.POWERFUL_ROYAL_GUARD.get(), new int[]{0, 0, 1, 1, 0, 1, 1, 2});
+        }
+        if(DungeonsMobsConfig.COMMON.ENABLE_ILLAGER_WARRIOR_IN_RAIDS.get()){            
+            Raid.WaveMember.create("illager_warrior", ModEntityTypes.ILLAGER_WARRIOR.get(), new int[]{0, 0, 0, 0, 0, 0, 0, 1});
         }
     }
 }
