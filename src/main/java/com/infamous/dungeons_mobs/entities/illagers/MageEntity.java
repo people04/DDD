@@ -371,7 +371,7 @@ public class MageEntity extends SpellcastingIllagerEntity implements IAnimatable
 	    
 	    public void start() {
 	    super.start();
-	    MageEntity.this.duplicateInterval = 1200;
+	    MageEntity.this.duplicateInterval = 640;
 	    MageEntity.this.setDuplicateTicks(20);
 	    MageEntity.this.playSound(SoundEvents.EVOKER_PREPARE_SUMMON, MageEntity.this.getSoundVolume(), MageEntity.this.getVoicePitch());
 	    }
